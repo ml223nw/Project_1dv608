@@ -42,7 +42,7 @@ class LayoutView {
             <label for="'. $getThis->GetCurrencyValue() .'"></label>
             <input type="text" id="' . $getThis->GetCurrencyValue() . '" name="' . $getThis->GetCurrencyValue() . '" value="' . $getThis->SetCurrencyValue() . '""/>
                 '.$getThis->SetFromConvertInput().'
-            <select name = "currencies">
+            <select name = "ConvertFrom">
                 '.$getThis->GetCurrencies($getThis->GetFromInput()).'
             </select>
                 '.$getThis->SetFromConvertInput().'
